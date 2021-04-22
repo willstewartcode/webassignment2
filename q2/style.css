@@ -1,0 +1,36 @@
+/*  Sets the font family & sizes for the document. */
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 300%;
+  color: red;
+  text-shadow: .2rem .2rem .1rem black;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+/* Sets the first letter of each h2 to be 300% font size. */
+h2::first-letter {
+  font-size: 300%;
+}
+
+/* Makes the image appear to the left of the header content. */
+header img {
+  float: left;
+}
+
+/* Makes the links bold and changes the color to brown. */
+a {
+  font-weight: bold;
+  color: brown;
+}
+
+/* Reduces font size of footer and centers it. */
+footer {
+  font-size: 75%;
+  text-align: center;
+}

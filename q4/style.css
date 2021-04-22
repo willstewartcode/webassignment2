@@ -1,0 +1,102 @@
+/* Sets background color for document. */
+html {
+  background-color: #6A040F;
+}
+
+/*
+  Sets properties for the body,
+  including font family, background color,
+  margins, and other styling.
+*/
+body {
+  font-family: sans-serif;
+  width: 800px;
+  background-color: #9D0208;
+  color: #FFD9DA;
+  margin: auto auto;
+  border: 2px solid black;
+  box-shadow: 0.5rem 0.5rem 2px black;
+}
+
+h1 {
+  font-size: 300%;
+  color: #FFBA08;
+  text-shadow: .2rem .2rem .1rem black;
+}
+
+h2 {
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Sets the first letter of each h2
+  to be 300% font size.
+*/
+h2::first-letter {
+  font-size: 300%;
+}
+
+/*
+  Styles the header with a background gradient and padding.
+*/
+header {
+  background-image: linear-gradient(45deg, #FFBA08, #D00000);
+  padding: 1rem;
+}
+
+/*
+  Makes the image appear to the left of
+  the header content.
+*/
+header img {
+  width: 200px;
+  float: left;
+  margin-right: 1rem;
+}
+
+/*
+  Creates a sidebar containing the unordered
+  list of links. Appears to the left of the
+  main section.
+*/
+aside {
+  box-sizing: border-box;
+  float: left;
+  width: 175px;
+  padding: 4rem 1rem;
+  margin: 0 16px;
+}
+
+/*
+  Main section. Appears to the right of
+  the sidebar (aside).
+*/
+section {
+  box-sizing: border-box;
+  float: right;
+  width: 593px;
+  padding: 4rem;
+}
+
+/*
+  Styles the links so that they are bold
+  and changes color to yellow.
+*/
+a {
+  font-weight: bold;
+  color: #FFBA08;
+}
+
+/*
+  Reduces font size of footer and centers it.
+  Uses reverse of gradient used for header.
+*/
+footer {
+  font-size: 75%;
+  text-align: center;
+  background-image: linear-gradient(45deg, #D00000, #FFBA08);
+  clear: both;
+  padding: .5rem;
+}
